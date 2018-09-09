@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试加载模板</title>
+    <link rel="stylesheet" href="{% print(url_for('static', filename='css/main.css')) %}">
+</head>
+<body>
+<h1>{{ name }}</h1> make sound <h1>{{ vid }}</h1>
+</body>
+</html>
